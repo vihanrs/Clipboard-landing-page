@@ -1,0 +1,107 @@
+body{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:Bai Jamjuree,sans-serif;
+}
+.header-section{
+  background-image: url(images/bg-header-desktop.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 5% 10%;
+}
+.header-section .logo{
+  width: 70px;
+  height: 70px;
+  margin: 20px;
+}
+h1,h3{
+  font-weight: 600;
+  color: #4D555A;
+}
+p{
+  color: #A5AEB5;
+  font-size: 1.1rem;
+  }
+.btn{
+  border-radius: 20px;
+  margin: 10px;
+  padding: 7px 20px;
+  font-size: 0.9rem;
+}
+.btn{
+  color: #fff;
+}
+.btn:hover{
+  color: #fff;
+}
+.btnios{
+  background-color: #5DCCBB;
+  border: solid #2BC0AA;
+}
+.btnios:hover{
+  background-color: #2BC0AA;
+}
+.btnmac{
+  background-color: #8896FF;
+  border: solid #858FF0;
+}
+.btnmac:hover{
+  background-color: #858FF0;
+}
+.first-section{
+  text-align: center;
+  padding: 1% 10%;
+}
+.second-section{
+  padding: 2% 10%;
+}
+.middle-container{
+  padding: 20px;
+}
+.computer-image{
+  width: 100%;
+  height: auto;
+}
+.third-section{
+  text-align: center;
+  padding: 3% 10%;
+}
+.devices-image{
+  width: 100%;
+  padding: 10px;
+}
+.forth-section{
+  text-align: center;
+  padding: 0 10%;
+}
+.sixth-section{
+  padding: 3% 10%;
+  text-align: center;
+}
+.footer-section{
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.footer-section a {
+  display: inline-block;
+  color:  #4D555A;
+  margin:1%;
+}
+.footer-section a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+@media (max-width:768px) {
+  .btn{
+    width: 100%;
+  }
+  .middle-container{
+    text-align: center;
+  }
+  .fifth-section img{
+    margin: 15px 65px;
+  }
+}
